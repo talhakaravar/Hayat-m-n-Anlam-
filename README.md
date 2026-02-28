@@ -1,5 +1,4 @@
 # Hayatımın Anlamı 💙
-<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
@@ -89,7 +88,7 @@ img{
 <script>
 function checkPassword(){
     var answer = document.getElementById("password").value.toLowerCase();
-    if(answer === "Çengelköy"){  // Çengelköy
+    if(answer === "Çengelköy")
         document.getElementById("login").classList.add("hidden");
         document.getElementById("content").classList.remove("hidden");
     } else {
